@@ -31,6 +31,8 @@ dependencies {
 	}
 	
 	implementation group: 'io.swagger.core.v3', name: 'swagger-annotations', version: '2.1.2'
+	
+	testCompile('org.evomaster:evomaster-client-java-controller:1.0.1')
 }
 
 test {
